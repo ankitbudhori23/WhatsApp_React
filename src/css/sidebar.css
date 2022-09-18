@@ -1,0 +1,99 @@
+.sidebar{
+      flex: 0.35;
+      background-color: #fff;
+}
+.sidebar_header{
+      display: flex;
+      justify-content:space-between;
+      border-right:1px solid rgb(255, 255, 255) ;
+      padding: 10px;
+      background-color: #ededed;
+}
+.sidebar_header_right{
+      display: flex;
+      align-items: center;
+}
+.sidebar_search{
+      display: flex;
+      align-items: center;
+      background-color: #f3f2f2;
+      height: 40px;
+      padding: 10px;
+}
+.sidebar_search_a{
+      display: flex;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+      height: 35px;
+      border-radius:20px;
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 15px;
+}
+.sidebar_search_a input{
+      border: none;
+      margin-left: 10px;
+      outline: none;
+      width: 100%;
+}
+.sidebar_chats{
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(255, 255, 255);
+      overflow-y:scroll;
+      height: 446px;
+     
+}
+.add_chat{
+      padding: 12px 30px !important;
+      align-items: center !important;
+      border-bottom: 1px solid rgb(184, 184, 184) !important;
+}
+.add_chat:hover{
+      cursor: pointer !important;
+      background-color: #ccfaad !important;
+}
+.sidebar_chat{
+      padding: 10px !important;
+      align-items: center !important;
+      border-bottom: 1px solid rgb(184, 184, 184) !important;
+}
+.sidebar_chat:hover{
+      cursor: pointer;
+      background-color: #ebebeb ;
+}
+.chatinfo {
+margin-left: 10px;
+}
+.chatinfo h3{
+      font-size: 16px;
+}
+.chatinfo p{
+      font-size: 14px;
+}
+.sidebar_chat>h2{
+      font-size: 19px;
+      margin-left: 10px;
+      padding: 5px;
+}
+.chat_avatar{
+      padding: 8px;
+}
+.link{
+      text-decoration: none;
+      color: black;
+}
+.last-message{
+      width: 210px;
+      overflow: hidden;
+      height: 23px;
+}
+.main-sidebar-img{
+      padding-left: 92px;
+}
+.main-sidebar-name{
+      text-align: center;
+      padding: 10px;
+      margin-top: -5px;
+      margin-bottom: 5px
+}

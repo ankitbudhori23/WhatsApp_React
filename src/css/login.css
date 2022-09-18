@@ -1,0 +1,20 @@
+.login_page{
+     place-items: center;
+     text-align: center;
+      display: grid;
+      height: 90vh;
+}
+.login{
+     font-size: 19px;
+     background-color: rgb(207, 206, 206);
+      padding: 30px;
+      border-radius: 25px;
+      width: 350px;
+}
+.login_img{
+      width: 100px;
+      margin-bottom: -10px;
+}
+.login_btn{
+      padding: 20px;
+}
